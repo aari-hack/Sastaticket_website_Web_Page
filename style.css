@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    color: #0A549C;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sastaticket-logo-div {
+    padding: 1rem;
+    display: flex;
+}
+
+.header-items {
+    display: flex;
+    list-style: none;
+}
+
+.header-items>li {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.small-text {
+    font-size: small;
+}
+
+.item-logo {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    background-color: #0A549C;
+    background: url('../images/background.png');
+}
+
+.search-category-button {
+    display: flex;
+}
+
+.search-div {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 4rem;
+    height: 10rem;
+}
+
+.search-div-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0A549C;
+    text-align: left;
+    font-size: larger;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input {
+    padding: 0.25rem;
+    outline: #0A549C;
+}
+
+.main-section-footer {
+    height: 100%;
+    width: 100%;
+    background-color: #e7eef5;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.service>h4,
+.service>h5 {
+    margin: 2px;
+    color: #0A549C;
+    padding-left: 10px;
+}
+
+.whatsapp,
+.call {
+    color: #0A549C;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.main-section>span {
+    width: 100%;
+
+}
+
+.main-section span button {
+    background-color: hsl(210, 88%, 33%);
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    border: none;
+    display: block;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+span button:hover {
+    background-color: rgb(99, 51, 153);
+}
+
+.Contact ul {
+    display: flex;
+    color: #0A549C;
+    list-style: none;
+}
+
+.box {
+    width: 90%;
+    height: 200px;
+    background-color: inherit;
+    margin: 10px auto;
+    border: 0.1px solid rgb(120, 120, 120);
+    border-radius: 8px;
+    display: flex;
+}
+
+.download-app-text {
+    padding: 20px;
+}
+
+.phone-input {
+    width: 200px;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="tel"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ababab;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.colorbox {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+.states-box {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.lastfoot {
+    width: 80%;
+    border: 1px solid rgb(173, 173, 173);
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.lastfoot * h3 {
+    margin: 10px auto 0 auto;
+}
+
+#email {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+.email-div {
+    margin: auto 10px;
+    padding: 10px;
+}
+
+.air {
+    padding: 0 8rem;
+    margin-top: 5rem;
+}
+
+.ul li {
+    list-style: none;
+    color: rgb(99, 51, 153);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+.ul a {
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+    gap: 25rem;
+}
+
+.ul2 {
+    margin-top: -4rem;
+    gap: 20px;
+}
+
+.copy ul li {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+
+}
+
+.copy ul {
+    display: flex;
+
+}
+
+.copy li,
+p {
+    text-align: center;
+}

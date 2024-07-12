@@ -1,0 +1,129 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+.header {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    color: #0A549C;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sastaticket-logo-div {
+    padding: 1rem;
+    display: flex;
+}
+
+.header-items {
+    display: flex;
+    list-style: none;
+}
+
+.header-items>li {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.small-text {
+    font-size: small;
+}
+
+.item-logo {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+/* Box CSS start */
+.box {
+    width: 35rem;
+    height: 35rem;
+    background-color: #1b72a4;
+    position: relative;
+    left: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+
+.box h2 {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 35px;
+    color: white;
+    
+}
+.boxinput{
+    margin-top: -15px;
+}
+.input {
+    padding-left: 20px;
+}
+
+.boxinput input {
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    height: 30px;
+    width: 30rem;
+    margin: 4px;
+
+}
+
+.forget a {
+    margin-left: 24rem;
+    color: rgb(255, 255, 255);
+}
+
+.boxinput h4 {
+    margin: 5px;
+    color: white;
+}
+
+.radio {
+    display: flex;
+    text-align: center;
+    margin-left: 11rem;
+    padding-top: 0.5rem;
+    color: white;
+}
+ .checkbox label{
+    color: white;
+    position: relative;
+    top: -26px;
+} 
+.input [type="checkbox"]{
+position: relative;
+top:-25px;
+}
+
+.btn {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #003f63;
+    color: white;
+
+}
+
+button {
+    width: 200px;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.checkbox {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
